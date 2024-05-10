@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: white;
+    font-size: 18px;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(image-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.navbar {
+    padding: 12px 12px;
+    position: relative;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    gap: 5px;
+    
+}
+.text-box {
+    padding: 2% 3%;
+    width: 40%;
+    color: #fff;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 135px;
+    position: absolute;
+    top: 32%;
+    margin-left: 155px;
+    border: 1px solid#fff;
+    letter-spacing: 8px;
+}
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image1a {
+    margin-left: 10px;
+    transform: translateX(1rem);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0red, 0green, 0blue, 0.2);
+    padding-left: 9%;
+    padding-top: 9%;
+}
+.text-box2 {
+    transform: translateX(-20rem); 
+    box-shadow: 5px 5px 20px rgba(0red, 0green, 0blue, 0.2);
+    font-size: 29px;
+    background-color: #fff;
+    color: rgb(107, 103, 103);
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    margin-top: 770px;
+    letter-spacing: 5%;
+}
+.text-box2 h1 {
+    font-size: 55px;
+    letter-spacing: 3px;
+    color: black;
+}
+.section2 {
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.heading1 {
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.btn1 {
+    padding: 1rem 2rem;
+    letter-spacing: 5px;
+    background-color: #fff;
+    font-size: 30px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 20%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    background-size: cover;
+    
+}
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 20%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+}
+.imggal {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.imggal p {
+    text-align: center;
+    font-size: 30px;
+    flex-basis: 20%;
+
+}
+.imgname1 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-deep-earth.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname2 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-night-arcade.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname3 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-soccer-team.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname4 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-grid.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname5 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-from-above.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname6 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-pocket-borealis.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+
+}
+.imgname7 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-curiosity.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.imgname8 {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 24%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(image-fisheye.jpg);
+    color: #fff;
+    text-align: center;
+    height: 900px;
+}
+.footer {
+    background-color: black;
+    color: #fff;
+    padding: 2% 10%;
+}
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    color: rgb(107, 103, 103);
+}
+.bottomnav {
+    justify-content: space-around;
+}
