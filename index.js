@@ -145,7 +145,7 @@ document.body.appendChild(imggal);
     const socialMedia = ["icon-facebook.svg", "icon-twitter.svg", "icon-pinterest.svg", "icon-instagram.svg"];
     socialMedia.forEach(icon => {
       const link = document.createElement("a");
-      link.href = "#";
+      link.href = "https://nasiya1.github.io/Bootcamp/";
       const img = document.createElement("img");
       img.src = icon;
       link.appendChild(img);
